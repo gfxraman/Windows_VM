@@ -29,4 +29,4 @@ jobs:
     - name: Download Timeout Script
       run: Invoke-WebRequest https://raw.githubusercontent.com/gfxraman/timeout.ps1/main/timeout.ps1
     - name: Keep Alive
-      run: ./timeout.ps1
+      run: /timeout.ps1
